@@ -4,7 +4,7 @@ export const db = [
         name: 'Lukather',
         image: 'guitarra_01',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 299,
         category: 'Guitarras',
     },
@@ -13,7 +13,7 @@ export const db = [
         name: 'SRV',
         image: 'guitarra_02',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 349,
         category: 'Guitarras',
     },
@@ -22,7 +22,7 @@ export const db = [
         name: 'Borland',
         image: 'guitarra_03',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 329,
         category: 'Guitarras',
     },
@@ -31,7 +31,7 @@ export const db = [
         name: 'VAI',
         image: 'guitarra_04',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 299,
         category: 'Guitarras',
     },
@@ -40,7 +40,7 @@ export const db = [
         name: 'Thompson',
         image: 'guitarra_05',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 399,
         category: 'Guitarras',
     },
@@ -49,7 +49,7 @@ export const db = [
         name: 'White',
         image: 'guitarra_06',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 329,
         category: 'Guitarras',
     },
@@ -58,7 +58,7 @@ export const db = [
         name: 'Cobain',
         image: 'guitarra_07',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 349,
         category: 'Guitarras',
     },
@@ -67,7 +67,7 @@ export const db = [
         name: 'Dale',
         image: 'guitarra_08',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 379,
         category: 'Guitarras',
     },
@@ -76,7 +76,7 @@ export const db = [
         name: 'Krieger',
         image: 'guitarra_09',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 289,
         category: 'Guitarras',
     },
@@ -85,7 +85,7 @@ export const db = [
         name: 'Campbell',
         image: 'guitarra_10',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 349,
         category: 'Guitarras',
     },
@@ -94,7 +94,7 @@ export const db = [
         name: 'Reed',
         image: 'guitarra_11',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 399,
         category: 'Guitarras',
     },
@@ -103,7 +103,7 @@ export const db = [
         name: 'Hazel',
         image: 'guitarra_12',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 379,
         category: 'Guitarras',
     },
@@ -112,7 +112,7 @@ export const db = [
         name: 'Hazel',
         image: 'Bass_Guitar_13',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 379,
         category: 'Guitarras',
     },
@@ -121,7 +121,7 @@ export const db = [
         name: 'Drummer',
         image: 'Platillo_Drums_14',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 179,
         category: 'Percusion',
     },
@@ -130,7 +130,7 @@ export const db = [
         name: 'Hazelaz',
         image: 'Bass_Guitar_15',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 185,
         category: 'Guitarras',
     },
@@ -139,7 +139,7 @@ export const db = [
         name: 'Montecarlo',
         image: 'Piano_Cola_16',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Teclados',
     },
@@ -148,7 +148,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Combo-guitars_17',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 450,
         category: 'Ofertas',
     },
@@ -157,7 +157,7 @@ export const db = [
         name: 'Roland',
         image: 'Teclados_18',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 500,
         category: 'Teclados',
     },
@@ -166,7 +166,7 @@ export const db = [
         name: 'Korg',
         image: 'Acordeon_19',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 250,
         category: 'Teclados',
     },
@@ -175,7 +175,7 @@ export const db = [
         name: 'Nord',
         image: 'Redoblante_20',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 100,
         category: 'Percusion',
     },
@@ -184,7 +184,7 @@ export const db = [
         name: 'Roland',
         image: 'Hit-Hat_21',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 100,
         category: 'Percusion',
     },
@@ -193,7 +193,7 @@ export const db = [
         name: 'Colombo',
         image: 'small-drum_22',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 100,
         category: 'Percusion',
     },
@@ -202,7 +202,7 @@ export const db = [
         name: 'Korg',
         image: 'saxophone_23',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Vientos',
     },
@@ -211,7 +211,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Combo_Bongoe_24',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 250,
         category: 'Ofertas',
     },
@@ -220,7 +220,7 @@ export const db = [
         name: 'Bach',
         image: 'Arpa_25',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Cuerdas',
     },
@@ -229,7 +229,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Combo_trompetas_26',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Ofertas',
     },
@@ -238,7 +238,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Combo_guitar_bass_27',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Ofertas',
     },
@@ -247,7 +247,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Contrabajo_28',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Cuerdas',
     },
@@ -256,7 +256,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Banjo_29',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 300,
         category: 'Cuerdas',
     },
@@ -265,7 +265,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Combo_Guitar_bass_30',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 400,
         category: 'Ofertas',
     },
@@ -274,7 +274,7 @@ export const db = [
         name: 'Colombo',
         image: 'Drums_completa_31',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 500,
         category: 'Percusion',
     },
@@ -283,7 +283,7 @@ export const db = [
         name: 'Yamaha',
         image: 'Combo_vientos_32',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 400,
         category: 'Ofertas',
     },
@@ -292,8 +292,10 @@ export const db = [
         name: 'CoderHouse',
         image: 'cursos_bg',
         description:
-            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+            'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit. ',
         price: 200,
         category: 'Cursos',
     },
 ];
+
+export default db;

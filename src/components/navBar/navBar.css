@@ -1,0 +1,101 @@
+.header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/header.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    background-color: var(--bs-gray-100);
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    border-bottom: 0.1rem solid var(--bs-blanco);
+}
+.logo {
+    width: 50%;
+    height: auto;
+}
+.navbar {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: var(--bs-blanco);
+    font-size: 1.4rem;
+}
+.nav-links a:hover {
+    color: var(--bs-primary);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.busqueda,
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: var(--bs-blanco);
+    transition: color 0.3s ease;
+}
+.busqueda:hover,
+.icon-button:hover {
+    color: var(--bs-purple);
+}
+.icon-button {
+    position: relative;
+    display: inline-block;
+}
+.counter {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    border-radius: 50;
+    width: 1.8rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6347;
+    color: white;
+    font-size: 1.2rem;
+}
+.active {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    background-color: var(--bs-gray-700);
+    color: var(--bs-primary);
+    font-weight: 400;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.noActive {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    color: var(--bs-blanco);
+    font-weight: 900;
+    padding: 0.5rem;
+}
+.pie {
+    padding: 4rem 0;
+    background-color: var(--bs-gray-dark);
+    color: var(--bs-white);
+    text-align: center;
+    border-top: 0.1rem solid var(--bs-gray-300);
+}

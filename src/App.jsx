@@ -1,37 +1,27 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Page404 from './page/Page404';
-import PageHome from './page/PageHome';
-import { useState } from 'react';
-import ItemsDetailContainer from './components/ItemsDetailcontainer';
-import ItemsListContainer from './components/ItemsListContainer';
-
+import Home from './components/home/Home';
+import ItemsDetailContainer from './components/productos/ItemsDetailContainer';
+import Cart from './components/Cart/CartWidget';
+import { CartProvider } from './components/CartContext/CartContext';
+import Layout from './components/home/Layout';
+import Page404 from './components/home/Page404';
 function App() {
-    const [selectedCategory, setSelectedCategory] = useState('');
     return (
-        <>
+        <CartProvider>
             <BrowserRouter>
                 <Routes>
-                    <Route
-                        path="/"
-                        element={
-                            <Layout setSelectedCategory={setSelectedCategory} />
-                        }>
+                    <Route path="/" element={<Layout />}>
+                        <Route index element={<Home />} />
                         <Route
-                            index
-                            element={
-                                <PageHome selectedCategory={selectedCategory} />
-                            }
-                        />
-                        <Route
-                            path="/detalles/:id"
+                            path="producto/:id"
                             element={<ItemsDetailContainer />}
                         />
+                        <Route path="carrito" element={<Cart />} />
                         <Route path="*" element={<Page404 />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
-        </>
+        </CartProvider>
     );
 }
 
