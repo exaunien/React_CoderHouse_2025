@@ -1,12 +1,14 @@
 import { useParams } from 'react-router-dom';
-import db from '../../data/db';
+//import db from '../../data/db';
 import './itemsListContainer.css';
 import { useEffect, useState } from 'react';
 import { useCart } from '../CartContext/CartContext';
+import { getProductoById } from '../../service/getProductosById'; // reemplazo al db.js local
 
 function ItemsDetailContainer() {
     const { id } = useParams();
     const [producto, setProducto] = useState(null);
+    const [loading, setLoading] = useState(true);
 
     const { carrito, agregarAlCarrito } = useCart();
 
@@ -32,15 +34,19 @@ function ItemsDetailContainer() {
     };
 
     useEffect(() => {
-        const idNumber = Number(id);
-        const foundProducto = db.find((item) => Number(item.id) === idNumber);
+        getProductoById(id)
+            .then((res) => {
+                console.log('Producto recibido:', res);
+                setProducto(res);
+            })
 
-        if (foundProducto) {
-            setProducto(foundProducto);
-        } else {
-            console.warn('Producto no encontrado, item no se actualizará.');
-        }
+            .catch((err) => console.log(err))
+            .finally(() => setLoading(false));
     }, [id]);
+
+    if (loading) {
+        return <p>Cargando Producto....</p>;
+    }
 
     return (
         <div className="product-details">

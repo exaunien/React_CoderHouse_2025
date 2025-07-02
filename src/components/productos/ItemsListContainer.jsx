@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import db from '../../data/db';
+import { getProductos } from '../../service/getProductos';
+
+//import db from '../../data/db';
 import './itemsListContainer.css';
 
 function ItemsListContainer() {
@@ -9,7 +11,11 @@ function ItemsListContainer() {
     const [filtros, setFiltros] = useState({ categorias: [] });
 
     useEffect(() => {
-        setProductos(db);
+        const fetchData = async () => {
+            const productos = await getProductos();
+            setProductos(productos);
+        };
+        fetchData();
     }, []);
 
     /* Función para alternar los filtros de categorías.*/

@@ -1,9 +1,12 @@
 import './cart.css';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useCart } from '../CartContext/CartContext';
+import { crearOrden } from '../../service/crearOrden';
 
 const CartWidget = () => {
     const [compraFinalizada, setCompraFinalizada] = useState(false);
+    const [idOrden, setIdOrden] = useState(null);
 
     const { carrito, actualizarCantidad, eliminarProducto, setCarrito } =
         useCart();
@@ -15,10 +18,17 @@ const CartWidget = () => {
     );
     const total = subTotal + costoDeEnvio;
 
-    const handleCheckout = () => {
-        console.log('Procesando la compra...');
-        setCarrito([]);
-        setCompraFinalizada(true);
+    const handleCheckout = async () => {
+        const total = subTotal + costoDeEnvio;
+
+        try {
+            const id = await crearOrden(carrito, total);
+            setIdOrden(id);
+            setCarrito([]);
+            setCompraFinalizada(true);
+        } catch (error) {
+            console.error('Error al generar la orden:', error);
+        }
     };
 
     // Funciones para manejar la suma y resta de cantidades
@@ -41,9 +51,21 @@ const CartWidget = () => {
                 <div className="checkout-confirmation">
                     <h2>🎉 ¡Gracias por tu compra!</h2>
                     <p>
+                        Tu orden ha sido procesada con éxito. El ID de tu orden
+                        es:
+                        <h3 className="order-id">
+                            <strong>{idOrden}</strong>
+                        </h3>{' '}
+                    </p>
+                    <p>
                         Pronto recibirás la confirmación en tu correo
                         electrónico.
                     </p>
+                    <Link
+                        to="/"
+                        className="text-uppercase text-decoration-none fw-bold">
+                        Volver a pagina Principal
+                    </Link>
                 </div>
             ) : (
                 <>
