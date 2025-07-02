@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 // Configuracion de Firebase
-const firebaseConfig = {
-    apiKey: 'AIzaSyCGZsatK3ZF_ObWWi7ytW2FbCOUpp21Ll4',
-    authDomain: 'coderreact73700.firebaseapp.com',
-    projectId: 'coderreact73700',
-    storageBucket: 'coderreact73700.firebasestorage.app',
-    messagingSenderId: '884801365832',
-    appId: '1:884801365832:web:422e3230b589819635357d',
+export const firebaseConfig = {
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Inicializa Firebase

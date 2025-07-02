@@ -1,12 +1,32 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Guitarla - E-commerce de Instrumentos Musicales
 
-Currently, two official plugins are available:
+Este proyecto es una tienda online de instrumentos musicales construida con **React**, **Vite**, y **Firebase**. Incluye funcionalidades como filtrado por categoría, detalles de producto, carrito de compras, y registro de órdenes en Firestore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+-   **React + Vite** Frontend moderno y ágil
+-   **React Router** Navegación entre vistas
+-   **Context API** Manejo global del carrito
+-   **Firebase Firestore** Base de datos en la nube
+-   **Vercel Hosting** Deploy de la aplicación https://reactcoderhouse2025.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   ** css ** Estilos personalizados
+
+## Funcionalidades
+
+-   Filtrado por categoría
+-   Vista detallada de productos
+-   Carrito con control de cantidades
+-   Checkout con registro de órdenes en Firestore
+-   Renderizado condicional según estado del carrito
+
+## Instalación
+
+```bash
+git clone https://github.com/exaunien/React_CoderHouse_2025.git
+cd ecommerce
+npm install
+npm run dev
+```
