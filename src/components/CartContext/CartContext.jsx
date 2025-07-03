@@ -1,7 +1,11 @@
 import { createContext, useState, useContext } from 'react';
 const CartContext = createContext();
+
+// Exportamos el hoock para que pueda ser utilizado en otros componentes
 export const useCart = () => useContext(CartContext);
 
+// Creamos el proveedor del contexto del carrito
+// Este componente envolverá a los componentes que necesiten acceder al carrito
 export const CartProvider = ({ children }) => {
     const [carrito, setCarrito] = useState([]);
 
@@ -26,6 +30,7 @@ export const CartProvider = ({ children }) => {
         });
     };
 
+    // Funciones para actualizar la cantidad de un producto
     const actualizarCantidad = (id, cantidad) => {
         setCarrito((prevCarrito) =>
             prevCarrito.map((item) =>
@@ -33,6 +38,9 @@ export const CartProvider = ({ children }) => {
             )
         );
     };
+
+    // Función para eliminar un producto del carrito
+    // Esta función recibe el id del producto a eliminar
 
     const eliminarProducto = (id) => {
         setCarrito((prevCarrito) =>

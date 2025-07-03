@@ -1,16 +1,28 @@
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 //import db from '../../data/db';
 import './itemsListContainer.css';
 import { useEffect, useState } from 'react';
 import { useCart } from '../CartContext/CartContext';
 import { getProductoById } from '../../service/getProductosById'; // reemplazo al db.js local
 
+// Componente para detallar un producto específico
+// Utiliza el hook useParams para obtener el id del producto desde la URL
+
 function ItemsDetailContainer() {
     const { id } = useParams();
     const [producto, setProducto] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    // useCart es un hook que nos permite acceder al carrito y sus funciones
+    // Desestructuramos el carrito y la función agregarAlCarrito del contexto del carrito
+
     const { carrito, agregarAlCarrito } = useCart();
+
+    // Función para manejar el evento de agregar al carrito
+    // Verifica si el producto ya está en el carrito y su cantidad
+    // Si la cantidad es menor a 5, lo agrega al carrito
+    // Si ya hay 5 unidades, muestra un mensaje de alerta
 
     const handleAgregarAlCarrito = () => {
         const productoEnCarrito = carrito.find(
@@ -75,6 +87,10 @@ function ItemsDetailContainer() {
                             onClick={handleAgregarAlCarrito}>
                             Agregar al carrito
                         </button>
+                        <div className="continue">
+                            <Link to={'/'}>Seguir Comprando</Link>
+                            <Link to={'/carrito'}>Ir al Carrito</Link>
+                        </div>
                     </div>
                 </>
             ) : (

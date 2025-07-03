@@ -1,4 +1,5 @@
-// seed.js
+// Scripts generado con copilot
+// Este script sube los productos de un archivo local a Firebase Firestore
 
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';

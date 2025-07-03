@@ -8,15 +8,24 @@ const CartWidget = () => {
     const [compraFinalizada, setCompraFinalizada] = useState(false);
     const [idOrden, setIdOrden] = useState(null);
 
+    //useCart es un hook que nos permite acceder al carrito y sus funciones
     const { carrito, actualizarCantidad, eliminarProducto, setCarrito } =
         useCart();
 
     const costoDeEnvio = 10; // Costo de envío fijo
+
+    // Calcular el subtotal y el total del carrito
+    // El subtotal es la suma de los precios de los productos multiplicados por su cantidad
     const subTotal = carrito.reduce(
         (total, producto) => total + producto.price * producto.cantidad,
         0
     );
+
+    // El total es el subtotal más el costo de envío
     const total = subTotal + costoDeEnvio;
+
+    // Función para manejar el proceso de checkout
+    // Crea una orden con los productos del carrito y el total
 
     const handleCheckout = async () => {
         const total = subTotal + costoDeEnvio;
@@ -51,8 +60,8 @@ const CartWidget = () => {
                 <div className="checkout-confirmation">
                     <h2>🎉 ¡Gracias por tu compra!</h2>
                     <p>
-                        Tu orden ha sido procesada con éxito. El ID de tu orden
-                        es:
+                        Tu orden ha sido procesada con éxito. El numero de tu
+                        orden es:
                         <h3 className="order-id">
                             <strong>{idOrden}</strong>
                         </h3>{' '}
@@ -163,6 +172,9 @@ const CartWidget = () => {
                                     );
                                 })}
                             </ul>
+                            <div className="continue">
+                                <Link to={'/'}>Seguir Comprando</Link>
+                            </div>
                         </>
                     )}
                     {carrito.length > 0 && (

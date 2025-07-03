@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getProductos } from '../../service/getProductos';
+import { getProductos } from '../../service/getProductos'; // reemplazo al db.js local
 
 //import db from '../../data/db';
 import './itemsListContainer.css';
+
+// Componente que muestra una lista de productos
+// Utiliza el hook useState para manejar el estado de los productos, orden y filtros
 
 function ItemsListContainer() {
     const [productos, setProductos] = useState([]);

@@ -13,11 +13,11 @@ function App() {
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route
-                            path="producto/:id"
+                            path="/producto/:id"
                             element={<ItemsDetailContainer />}
                         />
-                        <Route path="carrito" element={<Cart />} />
-                        <Route path="*" element={<Page404 />} />
+                        <Route path="/carrito" element={<Cart />} />
+                        <Route path="/*" element={<Page404 />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
